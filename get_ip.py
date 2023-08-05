@@ -1,3 +1,6 @@
+import datetime
+import requests
+
 def get_ip():
     """Find IP address of the server"""
     current_datetime = datetime.datetime.now().strftime('%Y%m%d_%H%M%S')
