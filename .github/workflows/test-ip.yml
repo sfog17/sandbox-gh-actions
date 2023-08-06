@@ -4,8 +4,13 @@
 name: Test IP
 
 # Only trigger manually
-on: workflow_dispatch
+# on: workflow_dispatch
 
+# Run every day, at 8:30 am
+on:
+  schedule:
+    - cron: "30 8 * * *"
+    
 permissions:
   # Give the default GITHUB_TOKEN write permission to commit and push the
   # added or changed files to the repository.
