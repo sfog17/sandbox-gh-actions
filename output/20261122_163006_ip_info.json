@@ -1,0 +1,12 @@
+{
+  "ip": "3.41.210.123",
+  "hostname": "ec2-3-41-210-123.compute-1.amazonaws.com",
+  "city": "Ashburn",
+  "region": "Virginia",
+  "country": "US",
+  "loc": "39.0437,-77.4875",
+  "org": "AS14618 Amazon.com, Inc.",
+  "postal": "20147",
+  "timezone": "America/New_York",
+  "readme": "https://ipinfo.io/missingauth"
+}
